@@ -1,0 +1,6 @@
+{
+  "ServiceSettings": {
+    "SiteURL": "https://mattermost.example.com",
+    "ListenAddress": ":8065"
+  }
+}

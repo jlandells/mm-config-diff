@@ -1,0 +1,28 @@
+{
+  "_metadata": {
+    "tool": "mm-config-diff",
+    "tool_version": "1.0.0",
+    "server_url": "https://mattermost.example.com",
+    "captured_at": "2025-10-01T09:00:00Z"
+  },
+  "ServiceSettings": {
+    "SiteURL": "https://mattermost.example.com",
+    "ListenAddress": ":8065",
+    "MaximumLoginAttempts": 10,
+    "EnableOAuthServiceProvider": true
+  },
+  "SqlSettings": {
+    "DriverName": "postgres",
+    "DataSource": "[REDACTED]",
+    "DataSourceReplicas": "[REDACTED]",
+    "AtRestEncryptKey": "[REDACTED]"
+  },
+  "EmailSettings": {
+    "EnableSignInWithEmail": true,
+    "SMTPPassword": "[REDACTED]"
+  },
+  "PluginSettings": {
+    "Enable": true,
+    "EnableUploads": false
+  }
+}
